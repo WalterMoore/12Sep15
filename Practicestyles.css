@@ -6,12 +6,12 @@ html {
   line-height: 1;
 }
 body {
-  background: white;
+  background: #eeeeee;
   font-family: Georgia, Times, serif;
 }
 h2 {
-  border-top: #a4c5cd solid 2px;
-  border-bottom: #a4c5cd solid 2px;
+  border-top: #990000 solid 2px;
+  border-bottom: #990000 solid 2px;
   padding: 10px 0;
   margin: 0 auto;
   width: 750px;
@@ -25,8 +25,8 @@ h3 {
 header {
   text-align: center;
   height: 3em;
-  color: #639ba8;
-  background: #a4c5cd;
+  color: #000000;
+  background: #990000;
   padding: 12px;
   z-index: 1001;/*What is this?*/
   position: fixed;
@@ -46,7 +46,7 @@ header ul li a {
   color: white;
 }
 header li:hover {
-  background: #3b616a;
+  background: #7a0000;
 }
 header li:hover a {
   color: white;
@@ -98,12 +98,12 @@ div#container div#content div.scissors,
 div#container div#content ul#experience li {
   padding: 20px 0;
 }
-div#container div#content div#resume ul#experience li p {
+div#container div#content div#FourthSection ul#experience li p {
   text-indent: 10px;
 }
-div#container div#content div#resume ul#experience li .date {
+div#container div#content div#FourthSection ul#experience li p.date {
   font-style: italic;
-  color: #a4c5cd;
+  color: #990000;
 }
 div#container div#content div#contact-content {
   -webkit-border-radius: 5px;
@@ -111,8 +111,8 @@ div#container div#content div#contact-content {
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  color: #639ba8;
-  background: #a4c5cd;
+  color: #000000;
+  background: #990000;
   padding: 20px 0;
   color: white;
   width: 600px;
@@ -151,23 +151,23 @@ form #message {
   height: 200px;
 }
 form #submit {
-  color: #639ba8;
+  color: #000000;
   background: white;
   width: 300px;
   font-style: normal;
 }
 form #submit:hover {
   color: white;
-  background: #3b616a;
+  background: #7a0000;
 }
 footer {
   text-align: center;
   height: 3em;
-  color: #639ba8;
+  color: #000000;
   background: white;
   padding: 12px;
   width: 600px;
-  border-top: #a4c5cd solid;
+  border-top: #990000 solid;
   margin: 40px auto 0;
 }
 footer ul {
@@ -179,10 +179,10 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
-  color: #639ba8;
+  color: #000000;
 }
 footer li:hover {
-  background: #3b616a;
+  background: #7a0000;
 }
 footer li:hover a {
   color: white;
